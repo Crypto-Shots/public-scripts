@@ -1,0 +1,19 @@
+{
+  "name": "cs-nodejs-public-scripts",
+  "version": "1.0.0",
+  "description": "nodejs scripts - interact with the Hive blockchain",
+  "main": "index.js",
+  "scripts": {
+    "scan-hive": "node _SCAN/hiveScan.js",
+    "airdrop-hive-tokens": "node _AIRDROP_TOKENS/HIVE/airdropHiveTokens.js",
+    "airdrop-hive-nfts": "node _AIRDROP_NFT/HIVE/airdropHiveNfts.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Crypto Shots",
+  "dependencies": {
+    "node-fetch": "2.6.1",
+    "fs": "0.0.1-security",
+    "dotenv": "10.0.0",
+    "eosjs": "22.1.0"
+  }
+}

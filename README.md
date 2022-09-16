@@ -22,3 +22,8 @@ npm run airdrop-hive-tokens
 ```
 npm run airdrop-hive-nfts
 ```
+
+#### Lookup user's NFTs
+```
+npm run fetch-nfts
+```

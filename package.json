@@ -7,6 +7,7 @@
     "scan-hive": "node _SCAN/hiveScan.js",
     "airdrop-hive-tokens": "node _AIRDROP_TOKENS/HIVE/airdropHiveTokens.js",
     "airdrop-hive-nfts": "node _AIRDROP_NFT/HIVE/airdropHiveNfts.js",
+    "fetch-nfts": "node _LIST_NFT/HIVE/fetchHiveNFts.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Crypto Shots",

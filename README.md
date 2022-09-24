@@ -1,10 +1,14 @@
 # INSTRUCTIONS
 
+
 #### Install dependencies
 
 ```
 npm i
 ```
+
+
+## HIVE
 
 -----
 
@@ -25,5 +29,24 @@ npm run airdrop-hive-nfts
 
 #### Lookup user's NFTs
 ```
-npm run fetch-nfts
+npm run fetch-hive-nfts
+```
+
+
+## WAX
+
+
+#### Airdrop tokens
+```
+npm run airdrop-wax-tokens
+```
+
+#### Airdrop NFTs
+```
+npm run airdrop-wax-nfts
+```
+
+#### Lookup user's NFTs
+```
+npm run fetch-wax-nfts
 ```

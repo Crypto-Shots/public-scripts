@@ -4,17 +4,23 @@
   "description": "nodejs scripts - interact with the Hive blockchain",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "__CHAIN__1": "_________________HIVE_____________________",
     "scan-hive": "node _SCAN/hiveScan.js",
     "airdrop-hive-tokens": "node _AIRDROP_TOKENS/HIVE/airdropHiveTokens.js",
     "airdrop-hive-nfts": "node _AIRDROP_NFT/HIVE/airdropHiveNfts.js",
-    "fetch-nfts": "node _LIST_NFT/HIVE/fetchHiveNFts.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "fetch-hive-nfts": "node _LIST_NFT/HIVE/fetchHiveNFts.js",
+    "__CHAIN__2": "_________________WAX_____________________",
+    "airdrop-wax-tokens": "node _AIRDROP_TOKENS/WAX/airdropWaxTokens.js",
+    "airdrop-wax-nfts": "node _AIRDROP_NFT/WAX/airdropWaxNfts.js",
+    "fetch-wax-nfts": "node _LIST_NFT/WAX/fetchWaxNFts.js"
   },
   "author": "Crypto Shots",
   "dependencies": {
-    "node-fetch": "2.6.1",
-    "fs": "0.0.1-security",
+    "@hiveio/dhive": "1.2.3",
     "dotenv": "10.0.0",
-    "eosjs": "22.1.0"
+    "eosjs": "22.1.0",
+    "fs": "0.0.1-security",
+    "node-fetch": "2.6.1"
   }
 }

@@ -4,7 +4,7 @@ const fetch = require('node-fetch');
 // CONFIG
 
 const targetUser = 'cryptoshots.nft';
-const nftSymbol = 'CSHOTS';
+const nftSymbol = 'CSPACKS';
 
 
 // FETCH
